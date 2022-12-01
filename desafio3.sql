@@ -3,7 +3,7 @@ SELECT a.usuario_nome AS usuario,
     ROUND(SUM(c.duracao_segundos / 60), 2) AS total_minutos       
 FROM SpotifyClone.usuarios AS a
 INNER JOIN SpotifyClone.historico AS b
-ON b.usuario_id = a.usuario_id
+ON b.usuario_id = user.usuario_id
 INNER JOIN SpotifyClone.musicas AS c
 ON c.musica_id = b.musica_id
 GROUP BY a.usuario_id
