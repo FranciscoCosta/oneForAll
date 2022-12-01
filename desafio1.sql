@@ -73,9 +73,9 @@ VALUES
   ('Ada Lovelace', 37, 2),
   ('Martin Fowler', 46, 2),
   ('Sandi Metz', 58, 2),
-  ('Paulo Freire', 19, 2),
+  ('Paulo Freire', 19, 3),
   ('Bell Hooks', 26, 3),
-  ('Christopher Alexander', 85, 3),
+  ('Christopher Alexander', 85, 4),
   ('Judith Butler', 45, 4),
   ('Jorge Amado', 58, 4);
 
